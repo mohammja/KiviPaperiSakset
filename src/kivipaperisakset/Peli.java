@@ -56,6 +56,7 @@ public class Peli {
      * Tulostaa voittajan.
      *
      * @param voittaja Voittajapelaaja.
+     * @return Voittajan nimi.
      */
     public static String tulostaVoittaja(Pelaaja voittaja) {
         System.out.println("Voittaja on pelaaja " + (voittaja.getVoitot() == 3 ? "1" : "2") + "!\n");

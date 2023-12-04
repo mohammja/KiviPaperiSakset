@@ -8,6 +8,13 @@ public class Pelaaja {
     private int voitot; // Voittojen lukumäärä
 
     /**
+     * Konstruktori luo uuden pelaajan.
+     */
+    public Pelaaja() {
+        voitot = 0;
+    }
+
+    /**
      * Valitsee randomilla kivi, paperi tai sakset.
      *
      * @return Pelaajan valinta (kivi, paperi tai sakset).
